@@ -5,5 +5,3 @@ function solution(my_string, n) {
   });
   return answer.join('');
 }
-
-console.log(solution('hello', 2));
