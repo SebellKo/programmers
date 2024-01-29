@@ -16,7 +16,3 @@ function solution(polynomial) {
   else answer = `${x === 1 ? '' : x}x + ${num}`;
   return answer;
 }
-// console.log(solution('3x + x + 7'));
-// console.log(solution('7 + 3'));
-// console.log(solution('3x + 4x'));
-console.log(solution('x'));
