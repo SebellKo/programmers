@@ -9,6 +9,3 @@ function solution(spell, dic) {
 
   return answer.filter((letter) => letter !== null).length >= 1 ? 1 : 2;
 }
-
-console.log(solution(['p', 'o', 's'], ['sod', 'eocd', 'qixm', 'adio', 'soo']));
-console.log(solution(['z', 'd', 'x'], ['def', 'dww', 'dzx', 'loveaw']));
